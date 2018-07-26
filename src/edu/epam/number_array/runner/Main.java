@@ -18,7 +18,7 @@ public class Main {
 
         StringFilter stringFilter = new StringFilter();
         String[] validDoubleArray = stringFilter.filterDouble(consoleString);
-
+        validDoubleArray = stringFilter.filterLength(validDoubleArray);
         FactoryArray numberMassive = new FactoryArray();
         double[] doubleArray = numberMassive.factoryDoubleArray(validDoubleArray);
 
